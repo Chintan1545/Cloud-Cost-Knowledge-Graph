@@ -1,0 +1,6 @@
+serviceName,resourceId,region,billedCost,environment,vendor
+EC2,i-123,us-east-1,120.5,Production,AWS
+S3,bucket-1,us-east-1,80.0,Production,AWS
+VM,vm-22,eastus,200.0,Production,Azure
+Blob Storage,blob-77,eastus,95.0,Production,Azure
+RDS,db-9,us-east-1,150.0,Dev,AWS
