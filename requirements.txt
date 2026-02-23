@@ -1,0 +1,8 @@
+neo4j
+sentence-transformers
+streamlit
+pandas
+numpy
+scikit-learn
+python-dotenv
+groq
