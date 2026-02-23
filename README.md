@@ -2,6 +2,25 @@
 
 Hybrid RAG system for cloud cost intelligence aligned with FOCUS 1.0 specification.
 
+# 📁 Project Structure
+```bash
+cloud-cost-kb/
+│
+├── app.py
+├── ingest.py
+├── rag.py
+├── ontology_design.md
+├── schema.cypher
+├── README.md
+├── test_queries.md
+│
+├── data/
+│   └── sample_data.csv
+│
+└── screenshots/
+    └── screenshos
+```
+
 ## Architecture
 
 CSV → Neo4j Graph → Embeddings → Hybrid Retrieval → Groq LLM → Streamlit UI
@@ -35,4 +54,5 @@ CSV → Neo4j Graph → Embeddings → Hybrid Retrieval → Groq LLM → Streaml
 - FinOps Foundation
 - FOCUS 1.0 Specification
 - AWS Billing Docs
+
 - Azure Billing Docs
